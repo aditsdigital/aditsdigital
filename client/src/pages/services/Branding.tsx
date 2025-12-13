@@ -50,7 +50,7 @@ export default function Branding() {
   return (
     <div>
       <Hero
-        title="Branding Services"
+        title="Branding Services - Adits Digital"
         subtitle="Create a powerful brand identity that resonates with your audience and sets you apart from competitors."
         ctaText="Build Your Brand"
         ctaLink="/contact"
