@@ -1,0 +1,93 @@
+You are a professional React.js developer.
+
+Create a complete responsive digital marketing agency website similar to **aditsdigital.com** using **React.js**, **React Router DOM**, and **Tailwind CSS**.
+
+### 🔹 PROJECT SETUP:
+- Initialize a React project (Vite or Create React App)
+- Install:
+  - react-router-dom
+  - tailwindcss
+- Setup Tailwind CSS (postcss config + tailwind.config.js)
+- Use clean folder structure:
+  /src
+   ├── components/
+   │    ├── Header.jsx
+   │    ├── Footer.jsx
+   │    ├── Hero.jsx
+   │    ├── ServiceCard.jsx
+   │    └── TestimonialCard.jsx
+   ├── pages/
+   │    ├── Home.jsx
+   │    ├── About.jsx
+   │    ├── Services.jsx
+   │    ├── Clients.jsx
+   │    ├── Contact.jsx
+   │    ├── Testimonials.jsx
+   │    ├── Blog.jsx
+   │    ├── Privacy.jsx
+   │    └── Terms.jsx
+   ├── App.jsx
+   ├── main.jsx
+   ├── index.css
+   └── assets/
+        ├── images/
+        └── logos/
+
+### 🔹 WEBSITE DETAILS:
+Name: ADITS Digital (React Clone)
+Theme Colors: Blue (#004AAD), White (#FFFFFF), Orange Accent (#FF6B35)
+Font: "Poppins", sans-serif
+
+### 🔹 PAGES REQUIRED:
+1. **Home Page**
+   - Hero section (headline + CTA “Get Free Audit”)
+   - Short intro about company
+   - Services overview grid (with links)
+   - Testimonials section
+   - Client logos carousel
+   - Contact CTA at bottom
+
+2. **About Page**
+   - Mission, Vision, About content
+   - Team section (optional)
+   - Experience stats and achievements
+
+3. **Services Page**
+   - Grid of all services with links to detail pages:
+     - SEO
+     - Social Media Marketing
+     - PPC / Google Ads
+     - Email Marketing
+     - SMS Marketing
+     - WhatsApp Marketing
+     - Branding
+     - Fix GMB Phone Number Not Approved
+   - Each card → opens dedicated service detail page
+
+4. **Contact Page**
+   - Form (name, email, phone, message)
+   - Contact details: phone, email, address
+   - Google Map embed
+   - Social media icons
+
+5. **Clients / Portfolio Page**
+   - Grid of client logos
+   - Short case studies (optional)
+
+6. **Testimonials Page**
+   - Client reviews, names, and logos
+
+7. **Blog Page**
+   - List of posts (title, image, excerpt, Read More link)
+
+8. **Privacy Policy & Terms Pages**
+
+### 🔹 COMMON COMPONENTS:
+- **Header.jsx:** logo, navigation links, “Get Free Audit” button
+- **Footer.jsx:** quick links, contact info, copyright
+- **Hero.jsx:** reusable banner for pages
+- **ServiceCard.jsx:** service display component
+- **TestimonialCard.jsx:** testimonial UI component
+
+### 🔹 ROUTING STRUCTURE:
+Use `react-router-dom`:
