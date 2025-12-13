@@ -26,7 +26,7 @@ export default function Branding() {
     },
     {
       icon: Sparkles,
-      title: "Brand Strategy",
+      title: "Brand Strategy - Adits Digital",
       description: "Comprehensive brand positioning, messaging, and strategy to connect with your audience.",
       gradient: "from-blue-500 via-cyan-500 to-teal-500",
       glowColor: "rgba(6, 182, 212, 0.4)",
